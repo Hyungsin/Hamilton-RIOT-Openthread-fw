@@ -1,10 +1,6 @@
 ## OpenThread border router on Hamilton/RIOT
 
-This application provides an OpenThread border router with watchdog. [OpenThread](https://github.com/openthread/openthread) is an open source implementation of [Thread](https://threadgroup.org/).
-
-This test shows how to use a Network Co-Processor (NCP). A Network Co-Processor is used with wpantund software.
-Wpantund is a user-space network interface driver/daemon that provides a native IPv6 network interface to a low-power
-wireless Network Co-Processor. NCP and wpantund communicates by UART (UART(0) is used here)
+This application provides an OpenThread border router with watchdog. [OpenThread](https://github.com/openthread/openthread) is an open source implementation of [Thread](https://threadgroup.org/). [RIOT](https://github.com/RIOT-OS/RIOT) is an open source IoT operating system.
 
 ## Quick usage with a given hamilton border router
 
