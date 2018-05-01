@@ -1,0 +1,9 @@
+[submodule "RIOT-OS"]
+	path = RIOT-OS
+	url = https://github.com/Hyungsin/RIOT-OS.git
+	branch = openthread-border-router
+
+[submodule "openthread"]
+	path = RIOT-OS/pkg/openthread/source
+	url = https://github.com/Hyungsin/openthread.git
+	branch = openthread-border-router
