@@ -22,7 +22,7 @@ If you have just a hardware and need to install the programm, you can do the fol
 J-Link> power on
 ```
 
-3. Compile and flash NCP (default serial baudrate is 1Mbps), run
+3. Compile and flash NCP (default serial baudrate is 1 Mbps, default wireless data rate is 2 Mbps), run
 ```
 ../Hamilton-RIOT-Openthread-fw/app_border_router$ make flash
 ```
@@ -131,5 +131,4 @@ if __name__ == "__main__":
 sudo python wpantund_run.py
 ```
 
-4. Expected results: Hamilton board's white LED must be blinking every second and the python script must output "health check passed" every second. These verify that the hamilton board is receiving heartbeat messages from the Raspberry Pi.
-
+4. Expected results: Hamilton board's white LED must be blinking every second and the python script must output "health check passed" every second. These verify that the hamilton board is receiving heartbeat messages from the Raspberry Pi. The border router should automatically scan and join a Thread network around. When it joins, it starts as an end device and becomes a router later. It can be the leader of the network if it is the first node turned on. 
