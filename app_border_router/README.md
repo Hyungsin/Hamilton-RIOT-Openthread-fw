@@ -2,6 +2,8 @@
 
 This application provides an OpenThread border router with watchdog. [OpenThread](https://github.com/openthread/openthread) is an open source implementation of [Thread](https://threadgroup.org/). [RIOT](https://github.com/RIOT-OS/RIOT) is an open source IoT operating system.
 
+You can test various operation of Openthread border router by using [WPANCTL commands](https://github.com/openthread/wpantund/wiki/OpenThread-Simulator-Tutorial). This application is optimized for a [hamilton border router](https://hamiltoniot.com/collections/frontpage/products/hamilton-hg1-gateway).
+
 ## Quick usage with a given hamilton border router
 
 This application is already programmed in a hamilton border router (SAMR21+Raspberry Pi). You just need to (1) plug in the provided USB and (2) power on the border router. 
