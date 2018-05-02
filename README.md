@@ -1,6 +1,6 @@
 ## Hamilton-RIOT-OpenThread firmware: CLI command version
 
-This application provides an OpenThread test environment on a [hamilton border router](https://hamiltoniot.com/collections/frontpage/products/hamilton-hg1-gateway). [OpenThread](https://github.com/openthread/openthread) is an open source implementation of [Thread](https://threadgroup.org/). [RIOT](https://github.com/RIOT-OS/RIOT) is an open source IoT operating system.
+This application provides an OpenThread test environment on a [hamilton border router](https://hamiltoniot.com/collections/frontpage/products/hamilton-hg1-gateway). [OpenThread](https://github.com/openthread/openthread) is an open source implementation of [Thread](https://threadgroup.org/), a mutihop wireless mesh protocol for Internet of Things (IoT). [RIOT](https://github.com/RIOT-OS/RIOT) is an open source IoT operating system.
 
 While running, each node performs OpenThread network operation. But the application layer does nothing but wait for CLI commands. Users can test various Openthread operations (border router, router, sleepy end device) by putting [CLI commands](https://github.com/openthread/wpantund/wiki/OpenThread-Simulator-Tutorial).
 
