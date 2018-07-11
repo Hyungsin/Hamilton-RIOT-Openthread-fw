@@ -1,8 +1,8 @@
-[submodule "RIOT-OS"]
-	path = RIOT-OS
-	url = https://github.com/Hyungsin/RIOT-OS
-        branch = openthread-qualified-v1.0
 [submodule "wpantund"]
 	path = wpantund
 	url = https://github.com/Hyungsin/wpantund
         branch = openthread-qualified-v1.0
+[submodule "RIOT-OS"]
+	path = RIOT-OS
+	url = https://github.com/Hyungsin/RIOT-OS
+	branch = openthread-qualified-v1.0
